@@ -1,0 +1,39 @@
+* {
+  background-color: rgb(34, 34, 34);
+  color: #eee;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+section.page-top {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  flex-basis: 100%;
+}
+div.header {
+  border: 1px solid gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.again {
+  border: 2px solid green;
+  font-size: 2rem;
+}
+.between {
+  border: 2px solid violet;
+  font-size: 1.4rem;
+}
+.guessText {
+  font-size: 4rem;
+}
