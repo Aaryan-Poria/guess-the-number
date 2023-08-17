@@ -62,3 +62,48 @@ p.number {
   font-size: 100px;
   padding-top: 10px;
 }
+section.page-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.interact {
+  display: flex;
+  flex-direction: column;
+}
+#userInput {
+  border: 5px solid #eee;
+  height: 120px;
+  font-size: 3.5rem;
+  width: 245px;
+  text-indent: 60px;
+}
+.check {
+  display: flex;
+  font-size: 20px;
+  background-color: #eee;
+  color: rgb(34, 34, 34);
+  width: 143px;
+  height: 50px;
+  margin-top: 24px;
+  justify-content: center;
+  align-self: center;
+  padding-top: 14px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 150px;
+}
+.startGuessing {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.score {
+  margin-top: 44px;
+}
+.highScore {
+  margin-top: 0px;
+}
