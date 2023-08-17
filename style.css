@@ -8,32 +8,57 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
 }
 section.page-top {
   display: flex;
-  border: 1px solid red;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* flex-grow: 1; */
   /* flex-shrink: 1; */
   flex-basis: 100%;
+  border-bottom: 5px solid #eee;
+  margin-bottom: -168px;
+  padding-bottom: 58px;
 }
 div.header {
-  border: 1px solid gold;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
 }
 .again {
-  border: 2px solid green;
   font-size: 2rem;
+  padding-top: 7px;
+  padding-left: 21px;
+  background-color: #eee;
+  color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .between {
-  border: 2px solid violet;
+  display: flex;
   font-size: 1.4rem;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .guessText {
-  font-size: 4rem;
+  font-size: 3.5rem;
+}
+p.number {
+  color: rgb(34, 34, 34);
+  background-color: #eee;
+  display: flex;
+  width: 213px;
+  height: 150px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  padding-top: 10px;
 }
