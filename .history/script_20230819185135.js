@@ -10,6 +10,7 @@ let score = 20;
 let highscore = 0;
 
 let secretNumber = generateRandomNumber();
+console.log(secretNumber);
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector("#userInput").value);
 

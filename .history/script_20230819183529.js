@@ -9,7 +9,8 @@ function generateRandomNumber() {
 let score = 20;
 let highscore = 0;
 
-let secretNumber = generateRandomNumber();
+const secretNumber = generateRandomNumber();
+console.log(secretNumber);
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector("#userInput").value);
 
@@ -43,18 +44,4 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".startGuessing").textContent =
       "😔 You Lost the Game!";
   }
-});
-
-document.querySelector(".again").addEventListener("click", function () {
-  score = 20;
-  secretNumber = generateRandomNumber();
-  document.querySelector(".number").textContent = "?";
-  document.querySelector(".startGuessing").textContent = "Start guessing...";
-  document.querySelector(".score").textContent = `💯 Score: ${score}`;
-  document.querySelector("#userInput").value = "";
-
-  document.querySelector("#qmark").style.width = "213px";
-  document.querySelector("body").style.backgroundColor = "rgb(34, 34, 34)";
-  document.querySelector("#userInput").style.backgroundColor =
-    "rgb(34, 34, 34)";
 });

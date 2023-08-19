@@ -1,4 +1,5 @@
 * {
+  background-color: rgb(34, 34, 34);
   color: #eee;
   font-family: "Press Start 2P", cursive;
 }
@@ -8,7 +9,6 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  background-color: rgb(34, 34, 34);
 }
 section.page-top {
   display: flex;
@@ -73,8 +73,6 @@ section.page-bottom {
   flex-direction: column;
 }
 #userInput {
-  background-color: rgb(34, 34, 34);
-  color: #eee;
   border: 5px solid #eee;
   height: 120px;
   font-size: 3.5rem;
